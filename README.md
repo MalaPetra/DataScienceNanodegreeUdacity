@@ -35,18 +35,3 @@ Learning to design experiments and analyze A/B test results. Exploring approache
 
 Leveraging the skills leant in the programme to build my own open-ended Data Science project. This project will serve as a demonstration of your valuable abilities as a Data Scientist.
 
-# Testing before deplying package to PyPi
-
-1) Go to the right directory containing setup file and clothing_package and type `pip install .`
-
-2) Leave the directory and type `python`
-
-3) from clothing_package import clothing
-
-4) test package in terminal:
->>> shirt_one = clothing.Shirt('red', 'S', 'long-sleeve', 25, 'short')
->>> shirt_two = clothing.Shirt('red', 'S', 'short_sleeve', 50, 'long')
->>> print(shirt_two.price)
->>> shirt_one.price + shirt_two.price
-
-
