@@ -1,5 +1,7 @@
 # Testing before deplying package to PyPi
 
+## Installing package on the local machine
+
 1) Go to the directory (folder) containing `setup` and `clothing-package` and type `pip install .`
 2) Leave the directory and type `python`
 3) from clothing_package import clothing
@@ -12,7 +14,7 @@
 
 >>> shirt_one.price + shirt_two.price
 
-# Uploading package to PyPi Test
+## Uploading package to PyPi Test
 
 1) Go to the right repository with a package
 2) Run `python setup.py sdist`
