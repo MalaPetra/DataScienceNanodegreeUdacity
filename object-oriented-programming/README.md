@@ -22,7 +22,7 @@
 
 ### commands to upload to the pypi test repository
 
-Install repository on PyPi test # commands to upload to the pypi test repository
+Install repository on PyPi test
 `twine upload --repository-url https://test.pypi.org/legacy/ dist/*`
 
 You can use this code below to install this package from test.pypi.org and check if everything is okay. And if you are happy with it you can install it on PyPI repository.
