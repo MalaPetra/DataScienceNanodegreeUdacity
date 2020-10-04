@@ -14,7 +14,8 @@
 
 # Uploading package to PyPi Test
 
-1) Run `python setup.py sdist`
+1) Go to the right repository with a package
+2) Run `python setup.py sdist`
 3) Install twine package `pip install twine`
 4) Install repository on PyPi test # commands to upload to the pypi test repository
 `twine upload --repository-url https://test.pypi.org/legacy/ dist/*`
