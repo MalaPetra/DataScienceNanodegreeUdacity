@@ -216,6 +216,9 @@ Heroku is just one option of many for deploying a web app, and Heroku is actuall
 
 The big internet companies offer similar services like Amazon's Lightsail, Microsoft's Azure, Google Cloud, and IBM Cloud (formerly IBM Bluemix). However, these services tend to require more configuration. Most of these also come with either a free tier or a limited free tier that expires after a certain amount of time.
 
+Remember to remove the the line app.run(host='0.0.0.0', port=3001, debug=True) in the myapp.py file before deploying to Heroku; however, to run the web app from within the Udacity workspace, you do need that line of code
+
+
 ##Instructions Deploying from the Classroom
 
 Here is the code used in the screencast to get the web app running:
