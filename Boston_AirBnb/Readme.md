@@ -15,9 +15,13 @@ Business Understanding:
 Libraries Needed
 
 import numpy as np
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 %matplotlib inline
