@@ -29,3 +29,11 @@ Serendipity
 Increased Diversity
 At the end of this lesson, you will have gained a ton of skills to build upon or to start creating your own recommendations in practice.
 
+What is knowledge based recommendation?
+
+Knowledge Based Recommendations
+A knowledge based recommendation is one in which knowledge about the item or user preferences are used to make a recommendation.
+
+Knowledge based recommendations are pretty common when purchasing luxury items. Take a look at the filters available on Zillow in the image below. This is an example of building in a knowledge based recommendation, as users can add their own preferences to the items that are provided.
+
+Often a rank based algorithm is provided along with knowledge based recommendations to bring the most popular items in particular categories to the user's attention.
