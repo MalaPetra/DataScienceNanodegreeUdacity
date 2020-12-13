@@ -25,3 +25,11 @@ In the previous video, you saw an example of a user to whom we gave a list of mo
 - User Groups
 
 The final (possible) method of validating your recommendations is by having user groups give feedback on items you would recommend for them. Obtaining good user groups that are representative of your customers can be a challenge on its own. This is especially true when you have a lot of products and a very large consumer base.
+
+Metric & Method
+
+Accurracy => Classification
+MSE => Regression
+Precision = Classification
+Recall => Classification
+R-Squared => Regression
