@@ -33,3 +33,11 @@ MSE => Regression
 Precision = Classification
 Recall => Classification
 R-Squared => Regression
+
+Singular Value Decomposition Takeaways
+
+Three main takeaways from the previous notebook:
+
+The latent factors retrieved from SVD aren't actually labeled.
+We can get an idea of how many latent factors we might want to keep by using the Sigma matrix.
+SVD in NumPy will not work when our matrix has missing values. This makes this technique less than useful for our current user-movie matrix.
