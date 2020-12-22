@@ -60,27 +60,46 @@ value - (dict of strings) - either an offer id or transaction amount depending o
 ### Libraries Used
 
 import pandas as pd
+
 import numpy as np
+
 import math
+
 import json
+
 import matplotlib.pyplot as plt 
+
 import datetime
+
 import seaborn as sns
 
 
 from sklearn.preprocessing import MinMaxScaler
+
 from sklearn.model_selection import train_test_split, GridSearchCV
+
 from sklearn.tree import DecisionTreeClassifier
+
 from sklearn.naive_bayes import GaussianNB 
+
 from sklearn.neighbors import KNeighborsClassifier
+
 from sklearn.linear_model import LogisticRegression
+
 from sklearn.linear_model import SGDClassifier
+
 from sklearn.ensemble import RandomForestRegressor
+
 from sklearn import metrics #Import scikit-learn metrics module for accuracy calculation
+
 from sklearn.metrics import classification_report
+
 from sklearn import decomposition, datasets
+
 #from sklearn import tree
+
 from sklearn.pipeline import Pipeline
+
 % matplotlib inline
 
 ### Project Goal
