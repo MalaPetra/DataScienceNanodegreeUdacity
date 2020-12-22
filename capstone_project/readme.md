@@ -56,3 +56,43 @@ event (str) - record description (ie transaction, offer received, offer viewed, 
 person (str) - customer id
 time (int) - time in hours since start of test. The data begins at time t=0
 value - (dict of strings) - either an offer id or transaction amount depending on the record
+
+### Libraries Used
+
+import pandas as pd
+import numpy as np
+import math
+import json
+import matplotlib.pyplot as plt 
+import datetime
+import seaborn as sns
+
+
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.naive_bayes import GaussianNB 
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import SGDClassifier
+from sklearn.ensemble import RandomForestRegressor
+from sklearn import metrics #Import scikit-learn metrics module for accuracy calculation
+from sklearn.metrics import classification_report
+from sklearn import decomposition, datasets
+#from sklearn import tree
+from sklearn.pipeline import Pipeline
+% matplotlib inline
+
+### Project Goal
+
+The goal of this project is to create a model which will predict whether customer will complete the offer or not.
+
+
+### Project Motivation
+
+I picked this project because I find this problem to be applicable into several areas of my current work. Using similar approach I could for example predict which customers become a users of the product or which customer to target in the first place. 
+
+### Project Result
+
+I build a model which predicts whether customers will use the offer or not. I chose a decision tree model with avg accuracy 0.78.
+
